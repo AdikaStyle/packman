@@ -2,7 +2,7 @@ package data
 
 import (
 	"bytes"
-	"github.com/securenative/packman/internal/etc"
+	"github.com/AdikaStyle/packman/internal/etc"
 	"text/template"
 )
 

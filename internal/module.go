@@ -2,8 +2,8 @@ package internal
 
 import (
 	"errors"
-	"github.com/securenative/packman/internal/business"
-	"github.com/securenative/packman/internal/data"
+	"github.com/AdikaStyle/packman/internal/business"
+	"github.com/AdikaStyle/packman/internal/data"
 	"os"
 	"path/filepath"
 	"runtime"

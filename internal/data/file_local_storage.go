@@ -3,7 +3,7 @@ package data
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/securenative/packman/internal/etc"
+	"github.com/AdikaStyle/packman/internal/etc"
 )
 
 type fileLocalStorage struct {

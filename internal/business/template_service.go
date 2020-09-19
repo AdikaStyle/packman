@@ -3,8 +3,8 @@ package business
 import (
 	"fmt"
 	copy2 "github.com/otiai10/copy"
-	"github.com/securenative/packman/internal/data"
-	packman "github.com/securenative/packman/pkg"
+	"github.com/AdikaStyle/packman/internal/data"
+	packman "github.com/AdikaStyle/packman/pkg"
 	"io/ioutil"
 	"os"
 	"path/filepath"

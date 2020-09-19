@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/securenative/packman/internal/etc"
+	"github.com/AdikaStyle/packman/internal/etc"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"

@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/securenative/packman/internal/etc"
+	"github.com/AdikaStyle/packman/internal/etc"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path/filepath"

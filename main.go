@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/securenative/packman/cmd/packman/controllers"
-	"github.com/securenative/packman/internal/etc"
+	"github.com/AdikaStyle/packman/cmd/packman/controllers"
+	"github.com/AdikaStyle/packman/internal/etc"
 	"github.com/urfave/cli"
 	"os"
 )

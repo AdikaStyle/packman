@@ -3,8 +3,8 @@ package business
 import (
 	"errors"
 	copy2 "github.com/otiai10/copy"
-	"github.com/securenative/packman/internal/data"
-	"github.com/securenative/packman/internal/etc"
+	"github.com/AdikaStyle/packman/internal/data"
+	"github.com/AdikaStyle/packman/internal/etc"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path/filepath"

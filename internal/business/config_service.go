@@ -1,6 +1,6 @@
 package business
 
-import "github.com/securenative/packman/internal/data"
+import "github.com/AdikaStyle/packman/internal/data"
 
 type configService struct {
 	localStorage data.LocalStorage

@@ -2,7 +2,7 @@ package packman
 
 import (
 	"encoding/json"
-	"github.com/securenative/packman/internal"
+	"github.com/AdikaStyle/packman/internal"
 	"io/ioutil"
 	"os"
 )

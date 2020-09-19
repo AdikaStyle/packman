@@ -1,4 +1,4 @@
-module github.com/securenative/packman
+module github.com/AdikaStyle/packman
 
 go 1.15
 

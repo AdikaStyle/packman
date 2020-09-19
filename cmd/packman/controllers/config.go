@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/securenative/packman/internal"
+	"github.com/AdikaStyle/packman/internal"
 	"github.com/urfave/cli"
 	"strings"
 )
