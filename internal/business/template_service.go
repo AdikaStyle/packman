@@ -2,7 +2,6 @@ package business
 
 import (
 	"fmt"
-	"github.com/AdikaStyle/packman/internal"
 	"github.com/AdikaStyle/packman/internal/data"
 	copy2 "github.com/otiai10/copy"
 	"io/ioutil"
@@ -10,6 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 )
+
+const PackageNameFlag = "package_name"
+const PackagePathFlag = "package_path"
 
 type templateService struct {
 	remoteStorage  data.RemoteStorage
@@ -29,8 +31,8 @@ func (this *templateService) Render(templatePath string, packagePath string, fla
 		}
 	}
 
-	flags[internal.PackagePathFlag] = packagePath
-	flags[internal.PackageNameFlag] = filepath.Base(packagePath)
+	flags[PackagePathFlag] = packagePath
+	flags[PackageNameFlag] = filepath.Base(packagePath)
 
 	scriptPath, err := toScriptPath(packagePath)
 	if err != nil {

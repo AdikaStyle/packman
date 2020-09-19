@@ -9,9 +9,6 @@ import (
 	"runtime"
 )
 
-const PackageNameFlag = "package_name"
-const PackagePathFlag = "package_path"
-
 type Module struct {
 	remoteStorage  data.RemoteStorage
 	scriptEngine   data.ScriptEngine
