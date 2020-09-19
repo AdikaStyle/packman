@@ -2,9 +2,9 @@ package business
 
 import (
 	"fmt"
-	copy2 "github.com/otiai10/copy"
+	"github.com/AdikaStyle/packman/internal"
 	"github.com/AdikaStyle/packman/internal/data"
-	packman "github.com/AdikaStyle/packman/pkg"
+	copy2 "github.com/otiai10/copy"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -29,8 +29,8 @@ func (this *templateService) Render(templatePath string, packagePath string, fla
 		}
 	}
 
-	flags[packman.PackagePathFlag] = packagePath
-	flags[packman.PackageNameFlag] = filepath.Base(packagePath)
+	flags[internal.PackagePathFlag] = packagePath
+	flags[internal.PackageNameFlag] = filepath.Base(packagePath)
 
 	scriptPath, err := toScriptPath(packagePath)
 	if err != nil {
