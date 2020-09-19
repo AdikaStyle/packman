@@ -2,6 +2,7 @@ package packman
 
 import (
 	"encoding/json"
+	"github.com/securenative/packman/internal"
 	"io/ioutil"
 	"os"
 )
@@ -36,4 +37,10 @@ func WriteReply(model interface{}) {
 	if err != nil {
 		panic(err)
 	}
+}
+
+
+
+func Unpack(remote, path string, flagsMap map[string]string) error {
+	return internal.M.TemplatingService.Unpack(remote, path, flagsMap)
 }

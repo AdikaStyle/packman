@@ -1,6 +1,6 @@
 module github.com/securenative/packman
 
-go 1.12
+go 1.15
 
 require (
 	github.com/fatih/color v1.7.0
